@@ -50,14 +50,19 @@ $shop_content = get_field('shop_content', get_the_ID());
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+			</div>
+		</div>
+
+		<div class="about-section-image container-xxl">
+			<div class="row">
+				<div class="col-md-auto"></div>
+				<div class="justify-content-end col-md-3">
 					<div class="entry-image">
 						<img src="/wp-content/themes/afmuseum/images/banner2.png" alt="banner2" />
 					</div>
 				</div>
 			</div>
 		</div>
-		
 	</section>
 	<!-- about section END -->
 
@@ -80,23 +85,26 @@ $shop_content = get_field('shop_content', get_the_ID());
 	<div class="shop-overlay"></div> 
 		<div class="shop-container container">
 			<div class="row">
-				<div class="shop-title col-sm-12 col-md-6">
+				<div class="shop-title d-flex align-items-center justify-content-center col-sm-12 col-md-6">
 					<div class="heading_container">
 						<h2>SHOP HEADLINE<br/> WILL GO HERE.<?= $shop_title; ?></h2>
+						<div class="shop-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<?= $shop_content; ?>
+						</div>
+						<div class="btn-box">
+							<a href="<?= get_permalink(17); ?>">Shop Now</a>
+						</div>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco
-					laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<?= $shop_content; ?>
 				</div>
 				<div class="shop-image col-sm-12 col-md-6">
 					<img src="/wp-content/themes/afmuseum/images/shop-all3.png" class="shop2-image" alt="shop2-image" />
 				</div>
 			</div>
-			<div class="btn-box">
-				<a href="<?= get_permalink(17); ?>">Shop Now</a>
-			</div>
+			
 		</div>
 	</section>
 	<!-- end donation section -->

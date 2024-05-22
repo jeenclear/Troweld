@@ -4,8 +4,8 @@
     $donation_content = get_field('donation_content', get_the_ID());
 ?>
 <section class="donation_section layout_padding">
-    <div class="donation-suport col-sm-12 col-md-6">
-        <img src="/wp-content/themes/afmuseum/images/support1.png" alt="donation1-image" />
+    <div class="donation-suport col-sm-12 col-md-4">
+        <img src="/wp-content/themes/afmuseum/images/support1.png" alt="donation1-image" style="width:100%;"/>
     </div>
     <div class="donation-image col-sm-12 col-md-12">
         <img src="/wp-content/themes/afmuseum/images/support2.png" alt="donation1-image" />
@@ -55,6 +55,18 @@
                                     }
                                 }
                             ?>
+                            <li class="col-sm-12 col-md-2">
+                                <a href="#">$17</a>
+                            </li>
+                            <li class="active col-sm-12 col-md-2">
+                                <a href="#">$17</a>
+                            </li>
+                            <li class="col-sm-12 col-md-2">
+                                <a href="#">$17</a>
+                            </li>
+                            <li class="col-sm-12 col-md-2">
+                                <a href="#">$17</a>
+                            </li>
                             <li class="<?= $option_key == 1 ? "active" : null; ?> col-sm-12 col-md-2">
                                 <a href="#other">Other</a>
                             </li>

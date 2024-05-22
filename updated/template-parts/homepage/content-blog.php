@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-xxl">
         <div class="blog-data" data-ride="blog">
             <div class="row">
                 <?php

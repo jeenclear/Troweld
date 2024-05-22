@@ -31,7 +31,7 @@
 	<!-- info section -->
 	<section class="info_section ">
 		<div class="info_container layout_padding2">
-			<div class="container">
+			<div class="container-xxl">
 			
 			<div class="info_logo">
 				<?php if( $l_opt == true && $l_img ) { ?>
