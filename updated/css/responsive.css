@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 1120px) {
-  
+
 }
 
 @media (max-width: 992px) {
@@ -62,6 +62,12 @@
   .contact_section .form_container {
     background-color: #003471;
     padding: 45px 25px;
+  }
+
+  /* About Section */
+  .about_section .detail-box {
+      padding-bottom: 30px;
+      padding-right: 30px;
   }
 }
 

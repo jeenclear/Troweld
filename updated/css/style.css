@@ -640,6 +640,7 @@ section.about_section .detail-box .btn-box a {
   border: 2px solid #003288;
   padding: 10px 40px;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 section.about_section .detail-box .entry-content {
@@ -693,6 +694,7 @@ section.about_section .detail-box .entry-content {
   position: relative;
   z-index: 9999;
   background: #fff;
+  padding: 40px;
 }
 
 .about_section .detail-box p {

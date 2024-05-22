@@ -30,7 +30,7 @@ $shop_content = get_field('shop_content', get_the_ID());
 	<section class="about_section layout_padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-sm-12 col-md-12 col-lg-9">
 					<div class="detail-box">
 						<div class="heading_container">
 							<h2>AIR FORCE<br/>MUSEUM FOUNDATION<?php echo $about_title; ?></h2>
